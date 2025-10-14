@@ -10,7 +10,7 @@
 }
 
 .about h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -29,20 +29,20 @@
 .about-text {
   max-width: 800px;
   background: white;
-  padding: 3rem;
+  padding: 2.5rem;
   border-radius: 20px;
   box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2);
 }
 
 .about-text p {
-  font-size: 1.15rem;
-  line-height: 1.9;
+  font-size: 1rem;
+  line-height: 1.7;
   color: #444;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .about-text p:first-child::first-letter {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
