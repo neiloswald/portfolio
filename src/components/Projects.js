@@ -91,14 +91,14 @@ function Projects() {
           description: 'Point-of-sale application for fine-dining restaurants and retail. It supports touch screen interface and printing to kitchen printers. Highly customized products and categories and color scheme.',
           technologies: ['Windows','Clarion','Topspeed','Line Printer','Touch Interface'],
           link: '#',
-        },
-        {
-          id: 5,
-          title: 'Inventory System',
-          description: 'Inventory system for retail, supports multiple locations or warehouses and multiple product units.',
-          technologies: ['Clarion','Topspeed'],
-          link: '#',
         }
+        // {
+        //   id: 5,
+        //   title: 'Inventory System',
+        //   description: 'Inventory system for retail, supports multiple locations or warehouses and multiple product units.',
+        //   technologies: ['Clarion','Topspeed'],
+        //   link: '#',
+        // }
 
 
 

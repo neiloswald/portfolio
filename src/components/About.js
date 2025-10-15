@@ -9,6 +9,9 @@ function About() {
         <h2><FaUser className="section-icon" /> About Me</h2>
         <div className="about-content">
           <div className="about-text">
+            <div className="about-image">
+              <img src={process.env.PUBLIC_URL + '/images/my_photo.png'} alt="Neil Oswald R. Bentulan" />
+            </div>
             <p>
               I'm <b>Neil Oswald R. Bentulan</b>, a passionate full stack developer with a love for creating beautiful and functional web applications. I specialize in modern web technologies and enjoy building challenging projects.
             </p>
