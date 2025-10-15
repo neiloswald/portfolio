@@ -22,7 +22,7 @@ function Skills() {
     {
       category: 'Tools & Others',
       icon: <FaTools />,
-      skills: ['Git', 'Docker','Docker Compose','Webpack', 'Vite', 'Agile']
+      skills: ['Git', 'Docker','Docker Compose','Webpack', 'Vite', 'Agile','Clarion for DOS / Windows',]
     },
     {
       category: 'Server and Cloud',

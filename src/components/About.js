@@ -23,7 +23,7 @@ function About() {
             </p>
             <p>Experience in managing software projects using Agile methodologies, and other collaboration tools.
             </p>
-            <p>I still love coding, usually creating the API and the base code template (Python, VueJS, Vuex, Axios). When roadblocked, programmers and team approach me and I guide them to discover the solution to their technical problems. I love it when teamates compliment me because I was able to fix issues in 30 minutes, which they were struggling with, in weeks. </p>
+            <p>I still love coding, usually creating the API and the base code template (Python, VueJS, Vuex, Axios). When roadblocked, programmers and team approach me and I guide them to discover the solution to their technical problems.  </p>
             <p>
               I watch YouTube to sleep, watching recent trends in web and mobile development, quantum physics and its history, big bang, parallel universe, world history, old civilizations and aliens(?).
             </p>

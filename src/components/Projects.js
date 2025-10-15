@@ -11,7 +11,7 @@ function Projects() {
         {
           id: 1,
           title: 'Virtual Traveler',
-          description: 'Tourists can experience immersive and interactive virtual tour to various destinations. This includes a tour admin dashboard, where one can create virtual tours, set points of interest, issue tickets for selling. Tourists buy tickets online and visits the tour. This utilizes Matterport to capture destinations and render digital twin of the space. This also allows tour conductor and tourists to interact in a video meeting in space powered by Zoom Meeting API. A full-stack web application built with VueJS / Typescript and Python (AWS Lambda).',
+          description: 'Tourists can experience immersive and interactive virtual tour to various destinations. This includes a tour admin dashboard, where one can create virtual tours, set points of interest, issue tickets for selling. Tourists buy tickets online and visits the tour. This utilizes Matterport to capture destinations and render digital twin of the space. This also allows tour conductor and tourists to interact in a video meeting in space powered by Zoom Meeting API.',
           technologies: ['VueJS', 'Typescript', 'Python', 'Oruga CSS', 'Mariadb', 'AWS Lambda','S3','SocketIO', 'Matterport', 'Zoom Video API', 'Stripe Payment'],
           link: '#'
         },
@@ -24,7 +24,7 @@ function Projects() {
         },
         {
           id: 3,
-          title: 'ArchiTwin (SaaS)',
+          title: 'ArchiTwin',
           description: 'ArchiTwin provides a navigable and interactive representation of the physical space, which can be explored in different perpectives, zoomed in and out, and even measure dimensions. Inside the virutal space we can add layers and virtual objects (which the users can experience and interact) like, tags, 3D models, video screens, slideshows and other custom objects. This project or framework is designed to be published as service for different user markets including, real estate, architecture and design, construction, tourism, remote collaboration. This is primarily powered by Matterport technology.',
           technologies: ['VueJS', 'Web2py', 'Python', 'Bulma CSS', 'Mariadb', 'Matterport', 'AWS EC2','S3', 'REST API'],
           link: '#'
