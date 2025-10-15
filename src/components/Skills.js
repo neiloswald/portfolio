@@ -7,7 +7,7 @@ function Skills() {
     {
       category: 'Frontend',
       icon: <FaLaptopCode />,
-      skills: ['React','VueJS','JavaScript','TypeScript','HTML5', 'CSS3', 'State Management','Redux','Vuex','Pinia','Cypress','jQuery','Zend']
+      skills: ['React','VueJS','JavaScript','TypeScript','HTML5', 'CSS3', 'Axios','State Management','Redux','Vuex','Pinia','Cypress','jQuery','Zend']
     },
     {
       category: 'Backend',
