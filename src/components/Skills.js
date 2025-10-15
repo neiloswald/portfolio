@@ -7,23 +7,35 @@ function Skills() {
     {
       category: 'Frontend',
       icon: <FaLaptopCode />,
-      skills: ['React', 'JavaScript', 'HTML5', 'CSS3', 'TypeScript', 'Redux']
+      skills: ['React','VueJS','JavaScript','TypeScript','HTML5', 'CSS3', 'Redux','Pinia']
     },
     {
       category: 'Backend',
       icon: <FaCog />,
-      skills: ['Node.js', 'Express', 'Python', 'REST APIs', 'GraphQL']
+      skills: ['Python','PHP','Node.js', 'Web2py','Code Igniter','REST APIs','SocketIO']
     },
     {
       category: 'Database',
       icon: <FaDatabase />,
-      skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
+      skills: ['MySQL','PostgreSQL', 'Firebase','Topspeed']
     },
     {
       category: 'Tools & Others',
       icon: <FaTools />,
-      skills: ['Git', 'Docker', 'AWS', 'Webpack', 'Jest', 'Agile']
+      skills: ['Git', 'Docker','Docker Compose','Webpack', 'Vite', 'Agile']
+    },
+    {
+      category: 'Server and Cloud',
+      icon: <FaTools />,
+      skills: ['Linux', 'Bash', 'Python','Nginx', 'Apache','AWS','GCP','Azure']
+    },
+    {
+      category: 'Robotics and IOT',
+      icon: <FaTools />,
+      skills: ['Robots', 'Pepper', 'Nao','Danny', 'Choreograph','Python','Raspberry Pi']
     }
+
+
   ];
 
   return (
