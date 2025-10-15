@@ -1,18 +1,18 @@
 import React from 'react';
 import './Skills.css';
-import { FaBolt, FaLaptopCode, FaCog, FaDatabase, FaTools } from 'react-icons/fa';
+import { FaBolt, FaLaptopCode, FaCog, FaDatabase, FaTools, FaServer, FaRobot } from 'react-icons/fa';
 
 function Skills() {
   const skillCategories = [
     {
       category: 'Frontend',
       icon: <FaLaptopCode />,
-      skills: ['React','VueJS','JavaScript','TypeScript','HTML5', 'CSS3', 'Redux','Pinia']
+      skills: ['React','VueJS','JavaScript','TypeScript','HTML5', 'CSS3', 'State Management','Redux','Vuex','Pinia','Cypress']
     },
     {
       category: 'Backend',
       icon: <FaCog />,
-      skills: ['Python','PHP','Node.js', 'Web2py','Code Igniter','REST APIs','SocketIO']
+      skills: ['Python','PHP','Node.js', 'Web2py','Code Igniter','REST APIs','SocketIO','Stripe','RobotX']
     },
     {
       category: 'Database',
@@ -26,12 +26,12 @@ function Skills() {
     },
     {
       category: 'Server and Cloud',
-      icon: <FaTools />,
-      skills: ['Linux', 'Bash', 'Python','Nginx', 'Apache','AWS','GCP','Azure']
+      icon: <FaServer />,
+      skills: ['Linux', 'Bash', 'Python','Nginx','Apache','AWS','EC2','Load Balancer','GCP','Azure']
     },
     {
       category: 'Robotics and IOT',
-      icon: <FaTools />,
+      icon: <FaRobot />,
       skills: ['Robots', 'Pepper', 'Nao','Danny', 'Choreograph','Python','Raspberry Pi']
     }
 
