@@ -25,7 +25,7 @@ function Projects() {
         {
           id: 3,
           title: 'ArchiTwin (SaaS)',
-          description: 'ArchiTwin provides a navigable and interactive representation of the physical space, which can be explored in different perpectives, zoomed in and out, and even measure dimensions. Inside the virutal space we can add layers and virtual objects (which the users can experience and interact) like, tags, 3D models, video screens, slideshows and other custom objects. This project or framework is designed to be published as service for different user markets including, real estate, architecture and design, construction, tourism, remote collaboration. This is primarily power by Matterport technology.',
+          description: 'ArchiTwin provides a navigable and interactive representation of the physical space, which can be explored in different perpectives, zoomed in and out, and even measure dimensions. Inside the virutal space we can add layers and virtual objects (which the users can experience and interact) like, tags, 3D models, video screens, slideshows and other custom objects. This project or framework is designed to be published as service for different user markets including, real estate, architecture and design, construction, tourism, remote collaboration. This is primarily powered by Matterport technology.',
           technologies: ['VueJS', 'Web2py', 'Python', 'Bulma CSS', 'Mariadb', 'Matterport', 'AWS EC2','S3', 'REST API'],
           link: '#'
         },
@@ -35,7 +35,15 @@ function Projects() {
           description: 'An app for monitoring elderly people in Elderly Shelters. Elderly is required to wear smartwatch which transmits vital signs like heartrate, gyro, temperature to  bluetooth gateway donggle installed in different locations in the house (giving elderly location). The donggle devices in turn transmits the collected data to the cloud server (REST API).',
           technologies: ['VueJS', 'Web2py', 'Python', 'Bulma CSS', 'Mariadb','AWS EC2', 'REST API','Smartwatch','Bluetooth Gateway'],
           link: '#'
+        },
+        {
+          id: 5,
+          title: 'OTS House',
+          description: 'A house will be installed water recycling system and solar power system. This app simulates the consumption of electricity and water and calculates savings based on some current usage data, and the rainfall and sunshine metrics of the city. The app shows multiple charts visualizing the data.',
+          technologies: ['Javascript','HMTL', 'Bulma CSS'],
+          link: '#'
         }
+
 
       ]
     },
