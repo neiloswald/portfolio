@@ -27,7 +27,7 @@ function About() {
             <p>
               I watch YouTube to sleep, watching recent trends in web and mobile development, quantum physics and its history, big bang, parallel universe, world history, old civilizations and aliens(?).
             </p>
-            <p>I believe in balance life, if the weather is good, I spend my time at the tennis court, smahing balls with my children and friends.</p>
+            <p>I believe in balance life, if the weather is good, I spend my time at the tennis court, smashing balls with my children and friends.</p>
           </div>
         </div>
       </div>
