@@ -52,10 +52,10 @@ function Projects() {
       icon: <FaRobot />,
       projects: [
         {
-          id: 3,
+          id: 1,
           title: 'Paramedi / SOAR',
           description: 'This is a very ambitious project, the primary goal is to create a framework that allows custom applications to control and manipulate any robots from various manufacturers, each with different capabilities, operating system or commands (and SDKs). First we collate all command sets from all robots (initially 5), created a more universal standard command set. Then we created library drivers for each robots. Later we created a communication server (SOAR) utilizing websocket. Robots or Applications connects to the server, once connected any robot, application or device should now be able to connect to any robot and control it. We use Raspberry as local SOAR server, and later created SOAR server in the cloud. This project started long before the ROS standard.',
-          technologies: ['Choreograph','Python','React Native','Flutter','Android','Raspberry Pi','Websocket','NodeJS','Robot Pepper','Robot Nao','Robot Danny','Robot Tapia'],
+          technologies: ['Choreograph','Python','Javascript','React Native','Flutter','Android','Raspberry Pi','Websocket','NodeJS','Robot Pepper','Robot Nao','Robot Danny','Robot Tapia'],
           link: '#'
         }
       ]
@@ -65,12 +65,44 @@ function Projects() {
       icon: <FaDesktop />,
       projects: [
         {
-          id: 4,
-          title: 'Desktop App One',
-          description: 'Desktop application for data management and visualization with a modern user interface.',
-          technologies: ['C#', '.NET', 'WPF'],
+          id: 1,
+          title: 'Hotel System',
+          description: 'Desktop application for hotel management, includes reservation, billing, cashiering and interfacing to PABX system to calculate phone call charges.',
+          technologies: ['Windows','Clarion','Topspeed','RS232 Comm','PABX'],
           link: '#'
+        },
+        {
+          id: 2,
+          title: 'Payroll System',
+          description: 'Desktop application for Philippine Payroll. Process starts with the application calculating hours work, overtime and undertime and holidays based on raw attendance log file. It automatically calculates employee pays and government deductions, including SS, PhilHealth, Pagibig and tax. It comes also with an optional Time Logging applications, scanning physical ID with barcodes. It generates all the mandated government reports.',
+          technologies: ['Windows','Clarion','Topspeed','Amano Bundy','Biometric'],
+          link: '#',
+        },
+        {
+          id: 3,
+          title: 'Accounting System',
+          description: 'Desktop application for general accounting, includes account receivable, payables, cash disbursement, cash receipts and general ledger. It produces the usual accounting reports, balance sheet, income statement, general journal, aging of receivables and payables, generally with MTD, YTD totals and yearly variances',
+          technologies: ['Windows','Clarion','Topspeed'],
+          link: '#',
+        },
+        {
+          id: 4,
+          title: 'Point-of-Sale System',
+          description: 'Point-of-sale application for fine-dining restaurants and retail. It supports touch screen interface and printing to kitchen printers. Highly customized products and categories and color scheme.',
+          technologies: ['Windows','Clarion','Topspeed','Line Printer','Touch Interface'],
+          link: '#',
+        },
+        {
+          id: 5,
+          title: 'Inventory System',
+          description: 'Inventory system for retail, supports multiple locations or warehouses and multiple product units.',
+          technologies: ['Clarion','Topspeed'],
+          link: '#',
         }
+
+
+
+
       ]
     }
   ];

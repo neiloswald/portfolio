@@ -7,7 +7,7 @@ function Skills() {
     {
       category: 'Frontend',
       icon: <FaLaptopCode />,
-      skills: ['React','VueJS','JavaScript','TypeScript','HTML5', 'CSS3', 'State Management','Redux','Vuex','Pinia','Cypress']
+      skills: ['React','VueJS','JavaScript','TypeScript','HTML5', 'CSS3', 'State Management','Redux','Vuex','Pinia','Cypress','jQuery','Zend']
     },
     {
       category: 'Backend',
@@ -32,7 +32,7 @@ function Skills() {
     {
       category: 'Robotics and IOT',
       icon: <FaRobot />,
-      skills: ['Robots', 'Pepper', 'Nao','Danny', 'Choreograph','Python','Raspberry Pi']
+      skills: ['Robots', 'Pepper', 'Nao','Danny','Tapia','Choreograph','Python','Flutter','Raspberry Pi']
     }
 
 
