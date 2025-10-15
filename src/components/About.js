@@ -10,7 +10,7 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Hello! I'm Neil Oswald R. Bentulan, a passionate developer with a love for creating beautiful and functional web applications.
+              Hello! I'm <b>Neil Oswald R. Bentulan</b>, a passionate developer with a love for creating beautiful and functional web applications.
             </p>
             <p>
               I specialize in modern web technologies and enjoy building projects that make a difference.
