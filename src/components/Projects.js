@@ -10,16 +10,16 @@ function Projects() {
       projects: [
         {
           id: 1,
-          title: 'Project One',
-          description: 'A full-stack web application built with React and Node.js. Features include user authentication, real-time updates, and responsive design.',
-          technologies: ['React', 'Node.js', 'MongoDB'],
+          title: 'Virtual Traveler',
+          description: 'Tourists can experience immersive and interactive virtual tour to various destinations. This includes a tour admin dashboard, where one can create virtual tours, set points of interest, issue tickets for selling. Tourists buy tickets online and visits the tour. This utilizes Matterport to capture destinations and render digital twin of the space. A full-stack web application built with VueJS / Typescript and Python (AWS Lambda).',
+          technologies: ['VueJS', 'Typescript','Python', 'Mariadb', 'AWS Lambda', 'SocketIO', 'Matterport', 'Zoom Video API','Stripe Payment'],
           link: '#'
         },
         {
           id: 2,
-          title: 'Project Two',
-          description: 'An e-commerce platform with shopping cart functionality, payment integration, and admin dashboard.',
-          technologies: ['React', 'Express', 'PostgreSQL'],
+          title: 'AYA Remote School Life',
+          description: 'AYA is a remote school life system for young adults (ages between 15 and 39). This system specializes in avatar robot access from hospitals to schools. AYA application is a solution that will reduce the burden of the young adults from returning to real life society after being discharged from the hospital.',
+          technologies: ['VueJS', 'Typescript','Python', 'Mariadb','Matterport','AWS EC2','REST API'],
           link: '#'
         }
       ]
