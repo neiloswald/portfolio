@@ -32,8 +32,8 @@ function Projects() {
         {
           id: 4,
           title: 'WiCare',
-          description: 'An app for monitoring elderly people in Elderly Shelters. Elderly is required to wear smartwatch which transmits vital signs like heartrate, gyro, temperature to  bluetooth data donggle installed in different locations in the house (giving elderly location). The donggle devices in turn transmits the collected data to the cloud server (REST API).',
-          technologies: ['VueJS', 'W', 'Python', 'Bulma CSS', 'Mariadb','AWS EC2', 'REST API','Smartwatch','Bluetooth Donggle'],
+          description: 'An app for monitoring elderly people in Elderly Shelters. Elderly is required to wear smartwatch which transmits vital signs like heartrate, gyro, temperature to  bluetooth gateway donggle installed in different locations in the house (giving elderly location). The donggle devices in turn transmits the collected data to the cloud server (REST API).',
+          technologies: ['VueJS', 'Web2py', 'Python', 'Bulma CSS', 'Mariadb','AWS EC2', 'REST API','Smartwatch','Bluetooth Gateway'],
           link: '#'
         }
 
@@ -84,7 +84,7 @@ function Projects() {
                       <span key={index} className="tech-tag">{tech}</span>
                     ))}
                   </div>
-                  <a href={project.link} className="project-link">View Project <FaExternalLinkAlt /></a>
+                  {/* <a href={project.link} className="project-link">View Project <FaExternalLinkAlt /></a> */}
                 </div>
               ))}
             </div>
