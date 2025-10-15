@@ -53,9 +53,9 @@ function Projects() {
       projects: [
         {
           id: 3,
-          title: 'Robot Project One',
-          description: 'Autonomous navigation system for mobile robots using sensor fusion and path planning algorithms.',
-          technologies: ['ROS', 'Python', 'Computer Vision'],
+          title: 'Paramedi / SOAR',
+          description: 'This is a very ambitious project, the primary goal is to create a framework that allows custom applications to control and manipulate any robots from various manufacturers, each with different capabilities, operating system or commands (and SDKs). First we collate all command sets from all robots (initially 5), created a more universal standard command set. Then we created library drivers for each robots. Later we created a communication server (SOAR) utilizing websocket. Robots or Applications connects to the server, once connected any robot, application or device should now be able to connect to any robot and control it. We use Raspberry as local SOAR server, and later created SOAR server in the cloud. This project started long before the ROS standard.',
+          technologies: ['Choreograph','Python','React Native','Flutter','Android','Raspberry Pi','Websocket','NodeJS','Robot Pepper','Robot Nao','Robot Danny','Robot Tapia'],
           link: '#'
         }
       ]
